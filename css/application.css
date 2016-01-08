@@ -1,0 +1,134 @@
+* {
+  font-family: 'Oswald', sans-serif;
+  color: #009682;
+}
+
+a {
+  text-decoration: none;
+  color: #009682;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #026857;
+}
+
+.navbar_one {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 175px;
+  background-color: white;
+  box-shadow: 0 7px 2px -2px #007F6E;
+}
+
+.navbar_two {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  box-shadow: 0 7px 2px -2px #007F6E;
+}
+
+.navlinks_left li {
+  float: left;
+  display: inline;
+  margin-top: 100px;
+  margin-left: 200px;
+  font-size: 30px;
+}
+
+.navlinks_right li {
+  float: right;
+  display: inline;
+  margin-top: 100px;
+  margin-right: 200px;
+  font-size: 30px;
+}
+
+.navlinks_two_left li {
+  float: left;
+  display: inline;
+  margin-bottom: 15px;
+  margin-left: 200px;
+  font-size: 30px;
+}
+
+.navlinks_two_right li {
+  float: right;
+  display: inline;
+  margin-bottom: 15px;
+  margin-right: 200px;
+  font-size: 30px;
+}
+
+.logo {
+  background-image: url('tgk-logo.gif');
+  height: 150px;
+  width: 150px;
+  display: block;
+  width: 10%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo:hover {
+  background-image: url('tgk-logo-hover.gif');
+
+}
+
+.headshot {
+  width: 10%;
+  margin-right: 420px;
+  margin-top: 40px;
+  float: right;
+}
+
+.bio {
+  background-color: white;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  padding: 15px;
+  font-size: 1.8em;
+  color: #009682;
+  height: 700px;
+  width: 40%;
+}
+
+.skills {
+  background-color: white;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  font-size: 1.7em;
+  color: #009682;
+  height: 60%;
+  width: 75%;
+}
+
+.work {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  font-size: 1.7em;
+  color: #009682;
+  height: 100%;
+  width: 40%;
+}
+
+.contact {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  font-size: 1.7em;
+  color: #009682;
+  height: 100%;
+  width: 40%;
+}
