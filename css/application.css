@@ -10,7 +10,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #026857;
+  color: rgb(230, 199, 145);
 }
 
 .navbar_one {
@@ -51,20 +51,15 @@ a:hover {
   width: 75%;
   align-content: center;
   display: inline;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-bottom: 15px;
   font-size: 30px;
 }
 
 .logo {
-  background-image: url('tgk-logo.gif');
-  height: 150px;
-  width: 150px;
-  display: block;
-  width: 10%;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  float: left;
+  color: white;
 }
 
 .logo:hover {
