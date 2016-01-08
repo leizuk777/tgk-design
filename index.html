@@ -6,9 +6,15 @@
     <meta name="keywords" content="">
     <meta name="author" content="">
     <title>TGK Design</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="css/application.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
@@ -17,52 +23,39 @@
 
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 
-    <!-- Compiled and minified CSS -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"> -->
-
-    <!-- Compiled and minified JavaScript -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script> -->
   </head>
   <body>
     <div id="fullpage">
 
       <!-- PAGE 1 -->
       <div class="section">
-        <div class="navbar_one">
-          <ul class="navlinks_left">
-            <li><a href="#firstPage">bio</a></li>
-            <li><a href="#secondPage">skills</a></li>
+        <div class="navbar_two">
+          <ul class="navlinks_two">
+            <li><a href="#firstPage" class="waves-effect waves-light btn-large"><i class="large material-icons">add</i>bio</a></li>
+            <li><a href="#secondPage" class="waves-effect waves-light btn-large"><i class="large material-icons">add</i>skills</a></li>
+            <li><a href="#thirdPage" class="waves-effect waves-light btn-large"><i class="large material-icons">add</i>work</a></li>
+            <li><a href="#fourthPage" class="waves-effect waves-light btn-large"><i class="large material-icons">add</i>contact</a></li>
           </ul>
-          <ul class="navlinks_right">
-            <li><a href="#fourthPage">contact</a></li>
-            <li><a href="#thirdPage">work</a></li>
-          </ul>
-          <div class="logo">
-            <a href="#firstPage"><img src='images/tgk-logo.gif' width='150' height='150' onmouseover="this.src='images/tgk-logo-hover.gif';" onmouseout="this.src='images/tgk-logo.gif';" /></a>
-          </div>
-
-          <div class="headshot">
-              <a href="mailto:leizuk777@gmail.com"><img src="images/tgk_headshot.gif" width="275px" height="275px"/></a>
-          </div>
-          <div class="bio">
-            <h2>bio</h2>
-            <p>Hi, my name is Troy Kuziel. I found my passion in web design at Dev Bootcamp after spending my college years getting a degree in 2-dimensional art design. I get a kick out of creating beautiful websites with impact. I love to try new things and improve my skills.</p>
-          </div>
         </div>
+            <div class="headshot">
+                <a href="mailto:leizuk777@gmail.com"><img src="images/tgk_headshot.gif" width="275px" height="275px"/></a>
+            </div>
+              <div class="bio">
+                <h2>bio</h2>
+                <p>Hi, my name is Troy Kuziel.  I found my passion in web design at DevBootCamp after spending my college years getting a degree in 2-dimension art design.  I get a kick out of creating beautiful websites with impact.  I love to try new things and improve my skills.  I am fun and easy to get along with, so I work well in teams.  But I also like working on my own, discovering new ways to identify problems and discover solutions.  My dilemma now is to find an organization that will allow me to learn, develop, and create extraordinary websites.</p>
+              </div>
       </div>
 
       <!-- PAGE 2 -->
       <div class="section">
-        <div class="navbar_two">
-          <ul class="navlinks_two_left">
-            <li><a href="#firstPage">bio</a></li>
-            <li><a href="#secondPage">skills</a></li>
+        <!-- <div class="navbar_two">
+          <ul class="navlinks_two">
+            <li><a href="#firstPage" class="waves-effect waves-light btn-large">bio</a></li>
+            <li><a href="#secondPage" class="waves-effect waves-light btn-large">skills</a></li>
+            <li><a href="#fourthPage" class="waves-effect waves-light btn-large">contact</a></li>
+            <li><a href="#thirdPage" class="waves-effect waves-light btn-large">work</a></li>
           </ul>
-          <ul class="navlinks_two_right">
-            <li><a href="#fourthPage">contact</a></li>
-            <li><a href="#thirdPage">work</a></li>
-          </ul>
-        </div>
+        </div> -->
           <div class="skills">
             <h2>skills</h2>
           </div>
@@ -70,7 +63,6 @@
 
       <!-- PAGE 3 -->
       <div class="section">
-
             <div class="slide" data-anchor="slide1">
               <div class="work">
                 <h2>work</h2>
@@ -79,7 +71,6 @@
             <div class="slide" data-anchor="slide2"> Slide 2 </div>
             <div class="slide" data-anchor="slide3"> Slide 3 </div>
             <div class="slide" data-anchor="slide4"> Slide 4 </div>
-
       </div>
 
       <!-- PAGE 4 -->
@@ -87,8 +78,8 @@
         <div class="contact">
           <h2>contact</h2>
           <br>
-          <a href="mailto:leizuk777@gmail.com">leizuk777@gmail.com</a>
-          <h3>630.577.7409</h3>
+          <h4><a href="mailto:leizuk777@gmail.com"><i class="small material-icons">email</i>&nbsp;&nbsp;&nbsp;leizuk777@gmail.com</a></h4><br>
+          <h4><i class="small material-icons">contact_phone</i>&nbsp;&nbsp;&nbsp;630.577.7409</h4>
         </div>
       </div>
 
