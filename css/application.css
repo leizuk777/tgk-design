@@ -13,6 +13,10 @@ a:hover {
   color: rgb(244, 226, 174);
 }
 
+ol {
+  list-style: circle;
+}
+
 .navbar_one {
   top: 0;
   position: absolute;
@@ -102,19 +106,41 @@ a:hover {
 }
 
 .web_skills {
-  background-color: orange;
+  background-color: #006064;
   width: 40%;
   height: 80%;
-  margin-left: auto;
+  margin-left: 80px;;
   margin-right: auto;
+  padding: 15px;
+  float: left;
+  border-radius: 5px;
+}
+
+.web_skills h4 {
+  color: white;
+}
+
+.web_skills li {
+  color: white;
 }
 
 .design_skills {
-  background-color: purple;
+  background-color: #006064;
   width: 40%;
   height: 80%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 80px;
+  padding: 15px;
+  float: right;
+  border-radius: 5px;
+}
+
+.design_skills h4 {
+  color: white;
+}
+
+.design_skills li {
+  color: white;
 }
 
 .work {
