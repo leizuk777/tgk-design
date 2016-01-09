@@ -10,7 +10,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: rgb(230, 199, 145);
+  color: rgb(244, 226, 174);
 }
 
 .navbar_one {
@@ -70,7 +70,7 @@ a:hover {
 .headshot {
   width: 10%;
   margin-right: 340px;
-  margin-top: 200px;
+  margin-top: 100px;
   float: right;
 }
 
@@ -80,11 +80,11 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
-  padding: 15px;
-  font-size: 1.5em;
+  padding: 30px;
+  font-size: 1.8em;
   color: #009682;
   height: 70%;
-  width: 40%;
+  width: 60%;
   border-radius: 5px;
 }
 
