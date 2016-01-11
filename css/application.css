@@ -32,7 +32,7 @@ ol {
   width: 100%;
   height: 75px;
   background-color: white;
-  box-shadow: 0 7px 2px -2px #007F6E;
+  box-shadow: 0 7px 2px -2px #0a322c;
 }
 
 .navlinks_left li {
@@ -94,7 +94,7 @@ ol {
 
 .skills {
   background-color: white;
-  margin-top: 75px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
@@ -167,4 +167,25 @@ ol {
   height: 100%;
   width: 40%;
   border-radius: 5px;
+}
+
+#section_one {
+  background: -webkit-gradient(linear, top left, bottom left, from(#0c675a), to(#007F6E));
+	background: -webkit-linear-gradient(#0c675a, #007F6E);
+	background: linear-gradient(#0c675a,#007F6E);
+}
+#section_two {
+  background: -webkit-gradient(linear, top left, bottom left, from(#007F6E), to(#00BFA6));
+	background: -webkit-linear-gradient(#007F6E, #00BFA6);
+	background: linear-gradient(#007F6E,#00BFA6);
+}
+#section_three {
+  background: -webkit-gradient(linear, top left, bottom left, from(#00BFA6), to(#00E5C7));
+	background: -webkit-linear-gradient(#00BFA6, #00E5C7);
+	background: linear-gradient(#00BFA6,#00E5C7);
+}
+#section_four {
+  background: -webkit-gradient(linear, top left, bottom left, from(#00E5C7), to(#00FFDD));
+  background: -webkit-linear-gradient(#00E5C7, #00FFDD);
+  background: linear-gradient(#00E5C7,#00FFDD);
 }
