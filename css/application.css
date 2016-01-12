@@ -156,16 +156,26 @@ header {
 }
 
 .work {
-  background-color: white;
+  background-color: #006064;
   margin-top: 130px;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
   font-size: 1.7em;
-  color: #009682;
+  color: white;
   height: 100%;
   width: 75%;
   border-radius: 5px;
+}
+
+.project_one {
+  float: left;
+  margin-left: 50px;
+}
+
+.project_two {
+  float: right;
+  margin-right: 125px;
 }
 
 .contact {
